@@ -1,3 +1,5 @@
 package com.example.cookingassistant
 
-data class Recipe (val title: String, val description: String, val image: String)
+import java.io.Serializable
+
+data class Recipe (val title: String, val description: String, val image: String) : Serializable

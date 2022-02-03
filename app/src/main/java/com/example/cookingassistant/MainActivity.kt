@@ -38,6 +38,14 @@ class MainActivity : AppCompatActivity(){
         adapter.setOnItemClickListener(object : RecipeAdapter.onItemClickListener{
             override fun onItemClick(position: Int) {
                 Toast.makeText(this@MainActivity, "You clicked on item no. $position",Toast.LENGTH_SHORT).show()
+                val recipes = recipes()
+
+                //Start intent for new Activity and pass data
+
+                val intent = Intent(this@MainActivity, DetailRecipeActivity::class.java)
+                intent.putExtra("recipe", recipes[position])
+
+                startActivity(intent)
             }
 
         })
