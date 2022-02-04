@@ -11,11 +11,13 @@ import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.core.content.ContextCompat
+import com.example.cookingassistant.databinding.ActivityMainBinding
 import com.squareup.picasso.Picasso
 import org.vosk.Recognizer
 import org.vosk.android.SpeechService
 import org.vosk.android.StorageService
 import java.io.IOException
+import java.lang.Exception
 
 class DetailRecipeActivity : AppCompatActivity() {
     private lateinit var image: ImageView
@@ -26,6 +28,7 @@ class DetailRecipeActivity : AppCompatActivity() {
     private var indexSteps = 0
     lateinit var progressBar: ProgressBar
     //voice control
+    private lateinit var binding: ActivityMainBinding
     private lateinit var service: SpeechService
     private val REQUEST_CODE = 1
 
@@ -42,6 +45,7 @@ class DetailRecipeActivity : AppCompatActivity() {
         if (recipe != null) {
             initViews(recipe)
         }
+
         //validate permissions for voice recording
         when {
             ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED -> {
@@ -143,5 +147,12 @@ class DetailRecipeActivity : AppCompatActivity() {
         progressBar.progress = indexSteps +1
     }
 
-    fun onRecord(view: View) {}
+    fun onRecord(view: View) {
+        //start listening
+        try{
+            service.startListening(CommandListener(), -1)
+        }catch (e: Exception){
+            println(e.toString())
+        }
+    }
 }

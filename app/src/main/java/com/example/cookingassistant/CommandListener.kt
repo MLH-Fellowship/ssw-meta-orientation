@@ -4,6 +4,7 @@ import org.vosk.android.RecognitionListener
 import java.lang.Exception
 
 class CommandListener : RecognitionListener {
+
     override fun onPartialResult(hypothesis: String?) {
         //println(hypothesis)
     }
