@@ -1,7 +1,7 @@
 # ssw-meta-orientation 
-Supersonic Whales Meta Team Orientation Hackathon
+Supersonic Whales Meta Team Orientation Hackathon 🐳
 
-# Cooking Assistant
+# Cooking Assistant🍳
 
 **Project created by:**<br />
 Pinran Cheng and Sebastián Rodríguez<br />
