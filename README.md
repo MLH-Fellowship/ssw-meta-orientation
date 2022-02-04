@@ -28,6 +28,7 @@ We learn the basics of Kotlin and some more advanced features of Android Studio.
 Implement a backend service to upload new recipes.<br />
 Improve the explore recipes view to allow the users to find faster and easier their favorite recipes.<br />
 Let the users to upload new recipes for the community<br />
+Tell the user next steps via audio<br />
 
 
 ##  Execution and Configuration:
