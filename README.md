@@ -30,10 +30,6 @@ If you want to use this project be sure to have the latest Android Studio versio
 4. Connect a device to run the app<br />
 5. That's it! you're ready to cook<br />
 
-También puedes usar el path directo de una imagen de internet, por ejemplo:
-* https://i.pinimg.com/170x/38/cc/40/38cc401fd7675795c50fc17361ac4d69.jpg
-* https://www.laneros.com/attachments/cmvbmvcbm-jpg.91526/
-* https://www.laneros.com/attachments/cx-jpg.91527/
 
 ##  Example Use:
 ![image](https://user-images.githubusercontent.com/71797690/152580485-c2c2fc9d-510c-43cb-8ad7-656ef610e6cb.jpg) ![image](https://user-images.githubusercontent.com/71797690/152582302-1399797d-6a74-43c0-818b-3194a9283bea.jpg) 
