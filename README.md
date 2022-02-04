@@ -25,9 +25,9 @@ Build a simple functional app in just a couple of days with all the features tha
 Teamwork to delegate tasks and features.
 We learn the basics of Kotlin and some more advanced features of Android Studio.
 ## What's next for Cooking Assistant 🚀
-Implement a backend service to upload new recipes.
-Improve the explore recipes view to allow the users to find faster and easier their favorite recipes.
-Let the users to upload new recipes for the community
+Implement a backend service to upload new recipes.<br />
+Improve the explore recipes view to allow the users to find faster and easier their favorite recipes.<br />
+Let the users to upload new recipes for the community<br />
 
 
 ##  Execution and Configuration:
