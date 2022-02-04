@@ -117,7 +117,7 @@ class DetailRecipeActivity : AppCompatActivity() {
         progressBar.progress = 0
     }
 
-    fun onClickNext(view: View) {
+    fun onClickNext(view: View?) {
         println("onClickNext")
         indexSteps = indexSteps + 1
         if( indexSteps >= steps.size){
@@ -130,7 +130,7 @@ class DetailRecipeActivity : AppCompatActivity() {
         stepDisplayer.text = steps[indexSteps]
         progressBar.progress = indexSteps +1
     }
-    fun onClickBack(view: View) {
+    fun onClickBack(view: View?) {
         println("onClickBack")
         indexSteps = indexSteps - 1
 
@@ -150,7 +150,7 @@ class DetailRecipeActivity : AppCompatActivity() {
     fun onRecord(view: View) {
         //start listening
         try{
-            service.startListening(CommandListener(), -1)
+            service.startListening(CommandListener(this::onClickNext, this::onClickBack), -1)
         }catch (e: Exception){
             println(e.toString())
         }
