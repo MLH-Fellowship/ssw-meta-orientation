@@ -40,7 +40,7 @@
         android:id="@+id/titleRecipe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="23dp"
+        android:layout_marginBottom="16dp"
         android:gravity="center"
         android:text="No Internet Connection"
         android:textAlignment="center"
@@ -48,6 +48,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/stepTitle"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.695"
         app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -76,17 +77,18 @@
         app:layout_constraintStart_toStartOf="@+id/stepsTextView"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <EditText
         android:id="@+id/stepsTextView"
-        android:layout_width="0dp"
-        android:layout_height="235dp"
+        android:layout_width="348dp"
+        android:layout_height="302dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="92dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginBottom="94dp"
         android:text="TextView"
         android:textSize="22sp"
-        app:layout_constraintBottom_toTopOf="@+id/backButton"
+        android:gravity="start|top"
+        android:inputType="none"
+        android:editable="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/titleRecipe" />
@@ -133,5 +135,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
