@@ -53,13 +53,12 @@ class MainActivity : AppCompatActivity(){
 
     private fun recipes(): MutableList<Recipe>{
         var recipesModels : MutableList<Recipe> = ArrayList()
-        recipesModels.add(Recipe("Pizza", "It's delicious", "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/03/30/6063031b90a87.r_d.1083-871-0.jpeg"))
-        recipesModels.add(Recipe("Pizza", "It's delicious", "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/03/30/6063031b90a87.r_d.1083-871-0.jpeg"))
-        recipesModels.add(Recipe("Pizza", "It's delicious", "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/03/30/6063031b90a87.r_d.1083-871-0.jpeg"))
-        recipesModels.add(Recipe("Pizza", "It's delicious", "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/03/30/6063031b90a87.r_d.1083-871-0.jpeg"))
-        recipesModels.add(Recipe("Pizza", "It's delicious", "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/03/30/6063031b90a87.r_d.1083-871-0.jpeg"))
-        recipesModels.add(Recipe("Pizza", "It's delicious", "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/03/30/6063031b90a87.r_d.1083-871-0.jpeg"))
-
+        recipesModels.add(Recipe("Pizza", "It's delicious", "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/03/30/6063031b90a87.r_d.1083-871-0.jpeg", listOf("Step1", "Step2", "Step3")))
+        recipesModels.add(Recipe("Pizza", "It's delicious", "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/03/30/6063031b90a87.r_d.1083-871-0.jpeg", listOf("Step1", "Step2", "Step3")))
+        recipesModels.add(Recipe("Pizza", "It's delicious", "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/03/30/6063031b90a87.r_d.1083-871-0.jpeg", listOf("Step1", "Step2", "Step3")))
+        recipesModels.add(Recipe("Pizza", "It's delicious", "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/03/30/6063031b90a87.r_d.1083-871-0.jpeg", listOf("Step1", "Step2", "Step3")))
+        recipesModels.add(Recipe("Pizza", "It's delicious", "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/03/30/6063031b90a87.r_d.1083-871-0.jpeg", listOf("Step1", "Step2", "Step3")))
+        recipesModels.add(Recipe("Pizza", "It's delicious", "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/03/30/6063031b90a87.r_d.1083-871-0.jpeg", listOf("Step1", "Step2", "Step3")))
 
         return recipesModels
     }
