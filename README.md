@@ -15,8 +15,6 @@ MLH Orientation Hackathon, february 2022<br />
 ## About It
 This is a Cooking Assistant App that allows you to  move between the recipe steps without using your hands while you cook your favorite meals. In order to do this, the app has integrated voice control so you can move between recipe steps.  <br />
 
-Tiene por objetivo ser una herramienta sencilla, eficaz y accesible para aplicarla en situaciones como la mejora de imágenes de placas de automóviles o la mejora de detalles de una fotografía tomada con poca resolución.
-
 It has as an objective to be a simple and UX friendly app that helps you mean while you cook your favorite meals.
 
 ## Project Development
