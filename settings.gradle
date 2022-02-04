@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Cooking Assistant"
-include ':app'
+include ':models', ':app'
